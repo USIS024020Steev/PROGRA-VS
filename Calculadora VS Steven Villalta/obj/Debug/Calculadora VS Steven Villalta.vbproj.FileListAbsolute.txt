@@ -1,0 +1,12 @@
+C:\Users\50370\Desktop\VS\Calculadora VS Steven Villalta\bin\Debug\Calculadora VS Steven Villalta.exe.config
+C:\Users\50370\Desktop\VS\Calculadora VS Steven Villalta\bin\Debug\Calculadora VS Steven Villalta.exe
+C:\Users\50370\Desktop\VS\Calculadora VS Steven Villalta\bin\Debug\Calculadora VS Steven Villalta.pdb
+C:\Users\50370\Desktop\VS\Calculadora VS Steven Villalta\bin\Debug\Calculadora VS Steven Villalta.xml
+C:\Users\50370\Desktop\VS\Calculadora VS Steven Villalta\obj\Debug\Calculadora VS Steven Villalta.vbprojAssemblyReference.cache
+C:\Users\50370\Desktop\VS\Calculadora VS Steven Villalta\obj\Debug\Calculadora_VS_Steven_Villalta.Form1.resources
+C:\Users\50370\Desktop\VS\Calculadora VS Steven Villalta\obj\Debug\Calculadora_VS_Steven_Villalta.Resources.resources
+C:\Users\50370\Desktop\VS\Calculadora VS Steven Villalta\obj\Debug\Calculadora VS Steven Villalta.vbproj.GenerateResource.cache
+C:\Users\50370\Desktop\VS\Calculadora VS Steven Villalta\obj\Debug\Calculadora VS Steven Villalta.vbproj.CoreCompileInputs.cache
+C:\Users\50370\Desktop\VS\Calculadora VS Steven Villalta\obj\Debug\Calculadora VS Steven Villalta.exe
+C:\Users\50370\Desktop\VS\Calculadora VS Steven Villalta\obj\Debug\Calculadora VS Steven Villalta.xml
+C:\Users\50370\Desktop\VS\Calculadora VS Steven Villalta\obj\Debug\Calculadora VS Steven Villalta.pdb
