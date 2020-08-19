@@ -6,7 +6,6 @@
         i = 1
 
         lstTablas.Items.Clear()
-
         Do While i <= 10
             lstTablas.Items.Add(ntabla.ToString() + "x" + i.ToString() + "=" + (ntabla * i).ToString())
             i = i + 1
