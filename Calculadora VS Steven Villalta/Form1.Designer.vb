@@ -22,55 +22,55 @@ Partial Class Form1
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.lblnum = New System.Windows.Forms.Label()
-        Me.txtnumero = New System.Windows.Forms.TextBox()
-        Me.lblRespuestaromano = New System.Windows.Forms.Label()
-        Me.btnCalcular = New System.Windows.Forms.Button()
+        Me.lbldepto = New System.Windows.Forms.Label()
+        Me.lblmun = New System.Windows.Forms.Label()
+        Me.cbxDepto = New System.Windows.Forms.ComboBox()
+        Me.cbxMun = New System.Windows.Forms.ComboBox()
         Me.SuspendLayout()
         '
-        'lblnum
+        'lbldepto
         '
-        Me.lblnum.AutoSize = True
-        Me.lblnum.Location = New System.Drawing.Point(73, 123)
-        Me.lblnum.Name = "lblnum"
-        Me.lblnum.Size = New System.Drawing.Size(108, 17)
-        Me.lblnum.TabIndex = 1
-        Me.lblnum.Text = "numero romano"
+        Me.lbldepto.AutoSize = True
+        Me.lbldepto.Location = New System.Drawing.Point(28, 54)
+        Me.lbldepto.Name = "lbldepto"
+        Me.lbldepto.Size = New System.Drawing.Size(98, 17)
+        Me.lbldepto.TabIndex = 1
+        Me.lbldepto.Text = "Departamento"
         '
-        'txtnumero
+        'lblmun
         '
-        Me.txtnumero.Location = New System.Drawing.Point(187, 123)
-        Me.txtnumero.Name = "txtnumero"
-        Me.txtnumero.Size = New System.Drawing.Size(100, 22)
-        Me.txtnumero.TabIndex = 2
+        Me.lblmun.AutoSize = True
+        Me.lblmun.Location = New System.Drawing.Point(282, 54)
+        Me.lblmun.Name = "lblmun"
+        Me.lblmun.Size = New System.Drawing.Size(67, 17)
+        Me.lblmun.TabIndex = 7
+        Me.lblmun.Text = "Municipio"
         '
-        'lblRespuestaromano
+        'cbxDepto
         '
-        Me.lblRespuestaromano.AutoSize = True
-        Me.lblRespuestaromano.Location = New System.Drawing.Point(293, 128)
-        Me.lblRespuestaromano.Name = "lblRespuestaromano"
-        Me.lblRespuestaromano.Size = New System.Drawing.Size(127, 17)
-        Me.lblRespuestaromano.TabIndex = 7
-        Me.lblRespuestaromano.Text = "Numero Romano ?"
+        Me.cbxDepto.FormattingEnabled = True
+        Me.cbxDepto.Location = New System.Drawing.Point(132, 47)
+        Me.cbxDepto.Name = "cbxDepto"
+        Me.cbxDepto.Size = New System.Drawing.Size(121, 24)
+        Me.cbxDepto.TabIndex = 8
         '
-        'btnCalcular
+        'cbxMun
         '
-        Me.btnCalcular.Location = New System.Drawing.Point(161, 188)
-        Me.btnCalcular.Name = "btnCalcular"
-        Me.btnCalcular.Size = New System.Drawing.Size(156, 62)
-        Me.btnCalcular.TabIndex = 0
-        Me.btnCalcular.Text = "calcular"
-        Me.btnCalcular.UseVisualStyleBackColor = True
+        Me.cbxMun.FormattingEnabled = True
+        Me.cbxMun.Location = New System.Drawing.Point(355, 47)
+        Me.cbxMun.Name = "cbxMun"
+        Me.cbxMun.Size = New System.Drawing.Size(121, 24)
+        Me.cbxMun.TabIndex = 9
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(572, 318)
-        Me.Controls.Add(Me.lblRespuestaromano)
-        Me.Controls.Add(Me.txtnumero)
-        Me.Controls.Add(Me.lblnum)
-        Me.Controls.Add(Me.btnCalcular)
+        Me.Controls.Add(Me.cbxMun)
+        Me.Controls.Add(Me.cbxDepto)
+        Me.Controls.Add(Me.lblmun)
+        Me.Controls.Add(Me.lbldepto)
         Me.Name = "Form1"
         Me.Text = "Conversor de numeros decimales a romanos "
         Me.ResumeLayout(False)
@@ -78,8 +78,8 @@ Partial Class Form1
 
     End Sub
 
-    Friend WithEvents lblnum As Label
-    Friend WithEvents txtnumero As TextBox
-    Friend WithEvents lblRespuestaromano As Label
-    Friend WithEvents btnCalcular As Button
+    Friend WithEvents lbldepto As Label
+    Friend WithEvents lblmun As Label
+    Friend WithEvents cbxDepto As ComboBox
+    Friend WithEvents cbxMun As ComboBox
 End Class
